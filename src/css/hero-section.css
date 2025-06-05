@@ -1,0 +1,26 @@
+.hero{
+    background-image: url(../img/phone-header-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 717px;
+    padding-top: 105px;
+    padding-bottom: 313px;
+}
+.hero-name{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+text-transform: uppercase;
+color: var(--blue-font);
+}
+.hero-list{
+    
+}
+.hero-list-item{
+    display: none;
+
+    @media screen and (min-width:730px) {
+        display: block;
+    }
+}
