@@ -1,0 +1,109 @@
+.about-box{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--light-blue);
+
+    @media screen and (min-width:730px) {
+        padding-top: 29px;
+        padding-bottom: 43px;
+    }
+    @media screen and (min-width:1350px) {
+        padding-top: 36px;
+        padding-bottom: 34px;
+    }
+}
+.about-title{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+color: var(--blue-font);
+}
+.about-title::before{
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid var(--blue-font);
+    width: 30px;
+}
+.about-subtitle{
+    margin-top: 30px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 28px;
+line-height: 1.50;
+text-transform: uppercase;
+color: var(--blue-font);
+
+ @media screen and (min-width:730px) {
+font-size: 32px;
+line-height: 1.41;
+ }
+}
+.about-text{
+    margin-top: 30px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+color: var(--blue-font);
+
+@media screen and (min-width:730px) {
+font-size: 18px;
+}
+}
+.about-list{
+    margin-top: 30px;
+    width: 170px;
+    margin:  0 auto;
+
+    @media screen and (min-width:730px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+    }
+}
+.about-list-item + .about-list-item{
+    margin-top: 30px;
+
+    @media screen and (min-width:730px) {
+        margin-top: 0;
+    }
+}
+.about-list-item{
+
+    @media screen and (min-width:730px) {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        align-items: center;
+        row-gap: 33px;
+    }
+}
+.about-list-figure{
+    display: block;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 50px;
+line-height: 1.50;
+text-transform: uppercase;
+text-align: center;
+color: var(--blue-font);
+}
+.about-list-text{
+    margin-top: 14px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+text-align: center;
+color: var(--blue-font);
+
+@media screen and (min-width:750px) {
+font-size: 18px;
+}
+}
+

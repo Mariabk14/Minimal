@@ -9,6 +9,13 @@
 @import url(./container.css);
 @import url(./header.css);
 @import url(./hero-section.css);
+@import url(./menu.css);
+@import url(./product.css);
+@import url(./about.css);
+@import url(./bestsellers.css);
+@import url(./clients.css);
+@import url(./newsletter.css);
+@import url(./footer.css);
 
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
