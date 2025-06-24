@@ -1,3 +1,9 @@
+.about-container{
+    @media screen and (min-width:1350px) {
+        display: flex;
+        column-gap: 24px;
+    }
+}
 .about-box{
     padding-top: 64px;
     padding-bottom: 64px;
@@ -10,6 +16,7 @@
     @media screen and (min-width:1350px) {
         padding-top: 36px;
         padding-bottom: 34px;
+        width: 760px;
     }
 }
 .about-title{
@@ -105,5 +112,8 @@ color: var(--blue-font);
 @media screen and (min-width:750px) {
 font-size: 18px;
 }
+}
+.img-box{
+    padding-top: 23px;
 }
 
