@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/Minimal/assets/index-50a9f749.js"></script>
-    <link rel="stylesheet" href="/Minimal/assets/index-bd2b9be5.css">
+    <script type="module" crossorigin src="/Minimal/assets/index-28a2069f.js"></script>
+    <link rel="stylesheet" href="/Minimal/assets/index-d784858f.css">
   </head>
   <body>
     <!-- <section>
@@ -188,6 +188,7 @@
     <section class="bestsellers">
     <div class="container">
         <h2 class="section-name">Bestsellers</h2>
+        <div class="bestsellers-box">
         <div class="pictures-box">
             <picture>
             <source srcset="/Minimal/assets/destop-bed-1x-cf244bd3.jpg 1x, /Minimal/assets/destop-bed-2x-8735d3c5.jpg 2x" media="(min-width:1320px)"/>
@@ -240,9 +241,10 @@
             </li>
         </ul>
     </div>
+    </div>
 </section>
     <section class="clients">
-    <div class="container">
+    <div class="container clients-box">
         <h2 class="reviews-title">Clients reviews</h2>
         <ul class="reviews-list">
             <li class="reviews-list-item">
@@ -253,8 +255,10 @@
                     <source srcset="/Minimal/assets/phone-comment-alexanda-1x-d0320d88.png 1x, /Minimal/assets/phone-comment-alexanda-2x-589c390e.png 2x" media="(min-width:340px)"/>
                 <img src="/Minimal/assets/destop-comment-alexanda-1x-7bfaa5b6.png" alt="person">
                 </picture>
+                <div class="reviewer-data">
                 <h2 class="reviewer-name">Alexandra Dream</h2>
                 <p class="reviewer-time">1 week ago</p>
+                </div>
             </div>
             <p class="reviewer-comment">I was blown away by the quality and craftsmanship of the furniture I received from this company. Each piece was unique and beautifully designed, and you can tell that a lot of thought and care goes into every detail. </p>
             </li>
@@ -262,11 +266,13 @@
             <div class="reviewer-container">
                 <picture>
                 <source srcset="/Minimal/assets/destop-comment-james-1x-ebfc223b.png 1x, /Minimal/assets/destop-comment-james-2x-c17019a2.png 2x" media="(min-width:1320px)"/>
-                    <source srcset="./img/tablet-comment-james-1x.png 1x, ./img/tablet-comment-james-2x.png 2x" media="(min-width:700px)"/>
+                <source srcset="/Minimal/assets/destop-comment-james-1x-ebfc223b.png 1x, /Minimal/assets/destop-comment-james-2x-c17019a2.png 2x" media="(min-width:700px)"/>
                 <img src="/Minimal/assets/destop-comment-james-1x-ebfc223b.png" alt="person">
                 </picture>
+                <div class="reviewer-data">
                 <h2 class="reviewer-name">James Williams</h2>
                 <p class="reviewer-time">A week ago</p>
+                </div>
             </div>
             <p class="reviewer-comment">The "Minimal" furniture set is a fantastic addition to my home. It boasts a minimalist design, enhancing the feel and look of my living space. The sturdy construction is worth noting too, which speaks volumes about its durability.</p>
             </li>
@@ -276,28 +282,30 @@
                 <source srcset="./img/destop-comment-emily-1x.png 1x, ./img/destop-comment-emily-2x.png 2x" media="(min-width:1320px)"/>
                 <img src="./img/destop-comment-emily-1x.png" alt="person">
                 </picture>
+                <div class="reviewer-data">
                 <h2 class="reviewer-name">Emily Watson</h2>
                 <p class="reviewer-time">3 week ago</p>
+                </div>
             </div>
             <p class="reviewer-comment">The "Minimal" furniture set has far exceeded my expectations. The sleek design combined with the high-quality materials have not only added an exceptional aesthetic to my space but also offered an uncompromising standard of comfort.</p>
             </li>
         </ul>
     </div>
 </section>
-    <select class="newsletter">
-    <div class="container">
+    <section class="newsletter">
+    <div class="container newsletter-box">
         <div class="newsletter-content">
             <h2 class="newsletter-content-item">Newsletter</h2>
             <p class="newsletter-content-text">Every week we will send you new designs and information about sales.</p>
             <form class="form">
                 <label class="form-label">
-                    <input type="text" placeholder="name" class="form-input">
+                    <input type="text" placeholder="Name" class="form-input">
                 </label>
                 <label class="form-label">
                     <input type="email" placeholder="Email" class="form-input">
                 </label>
                 <label class="form-label">
-                    <input type="checkbox" class="form-input">
+                    <input type="checkbox" class="form-checkbox">
                     Agree to subscribe to the newsletter
                 </label>
                 <button type="submit" class="form-button">Send</button>
@@ -312,13 +320,13 @@
             </picture>
         </div>
     </div>
-</select>
+</section>
     <footer class="footer">
-    <div class="container">
+    <div class="container footer-box">
         <div class="content-wrap">
        <div class="left-box">
-        <a href="#" class="logo">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAARCAYAAAAVBKQtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPgSURBVHgB1VldTttAEJ61wSpNK+UIJlCpj8kNwiMBqeEEhBNQTgCcgHAC0hOQSiXwRm4Aj0gtwUeI1KYFh+x2JrET72aT2MhO4u8B4vXfzuz3zcyO2ftcSYAHBnC/all77Ye6AxGQtcvZrtE9FiC++mOGYWz9+fWjSb8/bO4WOee3w/cwqHUeGwf+Mc7hCf/ZgUee/G01TiEkJBsYa3Yer7aG59a3azi47x9bFl9vP9w42nkBq3ZaV0cQEe/ssm0a7iVOIu8NOTj/9Vn3ZTZ3zgQf+WySDZMwzbawMIIHZIDruneZjVIFQoKc6BruXXDxY8AJLuoxzBlkA5Ex+7lsh71nLbd7aBjdu8Dih38fF2XtuBBF8ivMAYZmLCsEXGQ2di5mOSKT2znzFDT1ujdiISRA2CiCp1nvJtWjj24Z8CouWRYiwhOZPek8kmAuthsweQIVdMTtx43tMZb2jc+V4la9DosiQf/dZKNOBOSTvupRqfBGoMgku0wm9jD4t0fnRTHzqRQ5qkSFQoDRBDzYPcEuSen+wOSQN3ZvXJgjCWQb1JRItQ75gnwyrvrw9mvU7/x+vK7jM8+lC3tQgYQhEQCLs3sM6VS8OMFxPzfqQx5r4/kjTGjfIR44OI8DZWxOJBDnWAgeKYs5TIm6WocKZ2ZCAe+NIIBR4dY/YtAveC1uVaUoALBPpIMEMZYCnp0bv4JVq3BbDXlUrVpWr/CvdV2FGIE7hJqOBGu57aRTDuAuoMp5r0C2BccpJcJ4zj7ttBqFzs/GPYQEFXeKHx2yl360nXpbEVIWSZeozRNrACTBiS4aDDBQPW1Vom47wkJHAlTnGSpxHxIGiYBs00QDbx4D1ZOPICI4F1r1+zBMs6bccphkFDCmnfSjATpCYngSqtfBU4bkIFRPbR4k6L8fowEzhbQfp8WPqnofVDyjBZXAkLO6ypvBa6h3okSf7IvxUoGEYIS6ioGkgqRUr4OnsoWRoNflcgRgby92sXg+lh8FTZ0vkQCSvUypGeLECqQARAIsAunn0IEeCTBKXH2DFGCg/q60pcbiMk+FtXot2qYO5al28DurcSIVBCBMI4HGYUsH03Sx+AM1l+fDzt1rDDUhZoRLAUuCSekAUgC18RP9/mTaw6mJAD50kWDZQY0fJIDtH1MhiX/OZ92H3wqKwY89XPBDmBIFXl9XbOxcQmg8Qzt1BCCkjQRj6sfF9/f+04Dbv7rLul+GjTcBZdoS9vsFGtB3GexcQljgVraWqhQQhC4dLCO8sG0Hhpwwi0+ghWYgpCI37sZQaglASAMJ1K96auNnFnqcq/2WWBtD/wEMBAYz2Rn5IAAAAABJRU5ErkJggg==" alt="logo"/>
+        <a href="#" class="logo-footer">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJnSURBVHgB7ZfhcdswDIWffR3AI3CDphuwE7SdIMoEaSeoMkGSCeJM4HYCaQN3g2iDZgMViKD6hZIiKmJi/fB3xzMFUiAhECCM+sCDNI8IZN5G2o7ezWisILkjOfMzYo3tgP6HUL/+BnacIQJ7r+hbp2fuWd2lGNHPuj0iWFPfSSvGPpYp3kv7iteTi57veBuctH2kHfpBPeK47JH52A8dy7pHph9rz6e7RWS6KTXCYT7Xou8cb0duJ9SFAyK7xgQ7TEdGol/UH432KawH5BryRRvCbWhL9wZp2aY+YQEejR36y3ZMjU7OBqW0C15DdG6QiNAhulBlfSftTha7Qze0b/H8lEzlivq72JwfSYWuHYXZoanW01y14x7jcLq6X61Wj2gc05Iu/fINZc8uuFDr4ML0Nm/o0i1I7l5YJyfR39Ap9YxLnWS7+pV20HpZqNvkPtj/pufdguZ4RNBJWeL9Slom3R/SHmlII+KTjJVIgOjJcTidasyu7sn3M/SrHd/Q2MFoVEyxg++5K9Jf4hAluv8MCRi6Q3RBvS/+kOjWQjUZ5vjWKQ5NanFIiNlRkegm1g7biydRGUz5Tf0vSMAHHB/Nvx/RFBIOjVM+YxlwBVVJyyzjtnCaeiqB52aQoztET6s5QAuH/07B8+h8d+puqavPYyWujpeYwRoLwFKIOqUykcO8P54p8JjO7BJ4CSnriSBSHI4PR8OF7G87NLFu/tt4e9QUnPdMO4+ptBbjEEUroyU4xcpfZ4/VS84wtPry1r+U9/sKhwwRLCJlMeoUNOkraUU3kd5Sdwi7yNs7L1kJfOLEiZB/Vpt0ciP3eocAAAAASUVORK5CYII=" alt="logo"/>
         </a>
         <ul class="footer-menu">
             <il class="footer-menu-item">
