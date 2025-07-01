@@ -1,0 +1,50 @@
+.footer-box {
+  padding-top: 64px;
+  padding-bottom: 16px;
+  background: var(--blue-font);
+
+  @media screen and (min-width:750px) {
+    padding-top: 100px;
+    padding-bottom: 36px;
+  }
+  @media screen and (min-width:1350px) {
+    padding-top: 86px;
+  }
+}
+.content-wrap {
+    display: flex;
+    /* column-gap: 18px; */
+}
+.left-box{
+
+}
+.logo-footer{
+    width: 100px;
+
+    @media screen and (min-width:750px) {
+        width: 128px;
+    }
+}
+.footer-menu{
+    margin-top: 36px;
+}
+.footer-menu-item{
+    /* display: block; */
+
+}
+.menu-icon{
+    display: flex;
+    column-gap: 16px;
+    align-items: start;
+
+}
+.icon{
+    width: 28px;
+    height: 28px;
+    fill:  #fff;
+
+    @media screen and (min-width:750px) {
+        width: 40px;
+        width: 40px;
+    }
+}

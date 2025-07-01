@@ -1,7 +1,17 @@
 .bestsellers{
     padding-top: 64px;
+    padding-bottom: 64px;
+
+    @media screen and (min-width:750px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
-.pictures-box{
+.bestsellers-box{
+    @media screen and (min-width:1350px) {
+        display: flex;
+        margin: 0 auto;
+    }
     
 }
 .pictures-text{
@@ -14,8 +24,9 @@ color: var(--blue-font);
 @media screen and (min-width:750px) {
     font-size: 18px;
 }
+
 }
-.preis{
+.price{
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 16px;
@@ -26,19 +37,21 @@ color: var(--blue-font);
     font-size: 18px;
 }
 }
+
 .price-list{
-    @media screen and (min-width:1350px) {
-        flex-basis: calc((50% - 20px) /2);
+    @media screen and (min-width:750px) {
+        display: flex;
+        flex-basis: calc((100% -  20px) / 2);
+        column-gap: 20px;
+        row-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 .price-list-item:nth-child(1),
 .price-list-item:nth-child(2){
     display: block;
-
-    @media screen  {
-        
-    }
 }
 .price-list-item:nth-child(3),
 .price-list-item:nth-child(4){
