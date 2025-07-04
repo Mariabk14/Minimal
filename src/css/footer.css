@@ -3,6 +3,7 @@
   padding-bottom: 16px;
   background: var(--blue-font);
 
+
   @media screen and (min-width:750px) {
     padding-top: 100px;
     padding-bottom: 36px;
@@ -13,10 +14,12 @@
 }
 .content-wrap {
     display: flex;
-    /* column-gap: 18px; */
 }
 .left-box{
-
+  @media screen and (min-width:750px) {
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
 }
 .logo-footer{
     width: 100px;
@@ -35,10 +38,18 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 color: var(--white);
+ @media screen and (min-width:750px) {
+    font-size: 18px;
+ }
 }
 
 .address{
     margin-top: 36px;
+
+    @media screen and (min-width:750px) {
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
 }
 .address-text{
     padding-bottom: 8px;
@@ -47,6 +58,10 @@ font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.01em;
 color: var(--white);
+
+ @media screen and (min-width:750px) {
+    font-size: 19px;
+ }
 }
 
 .contact-list{
@@ -60,15 +75,29 @@ font-size: 16px;
 letter-spacing: 0.01em;
 color: var(--white);
 padding-bottom: 8px;
+
+ @media screen and (min-width:750px) {
+    font-size: 19px;
+ }
+}
+.contact-list-item:nth-child(2){
+    padding-bottom: 24px;
 }
 .contact-list-item:nth-child(3){
     display: none;
 
     @media screen and (min-width:750px) {
         display: block;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 19px;
+        letter-spacing: 0.01em;
+        color: var(--white);
     }
 }
-
+.right-box{
+    width: 152px;
+}
 .menu-icon{
     display: flex;
     column-gap: 16px;
@@ -95,4 +124,11 @@ line-height: 1.17;
 letter-spacing: 0.1em;
 text-align: center;
 color: var(--white);
+opacity: 0.6;
+
+ @media screen and (min-width:750px) {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+ }
 }
