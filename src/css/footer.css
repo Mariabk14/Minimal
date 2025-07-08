@@ -23,6 +23,10 @@
     column-gap: 98px;
     width: 488px;
   }
+
+  @media screen and (min-width:1350px) {
+    column-gap: 1013;
+  }
 }
 .logo-footer{
     width: 100px;
@@ -38,6 +42,10 @@
         flex-basis: 25%;
         order: 1;
         margin-top: 0;
+    }
+
+    @media screen and (min-width:1350px) {
+        /* display: flex; */
     }
 }
 .footer-menu-item{
