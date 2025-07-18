@@ -7,10 +7,14 @@
         padding-bottom: 100px;
     }
 }
+.section-name{
+    margin-bottom: 30px;
+}
 .bestsellers-box{
     @media screen and (min-width:1350px) {
         display: flex;
         margin: 0 auto;
+        justify-content: center;
     }
     
 }
