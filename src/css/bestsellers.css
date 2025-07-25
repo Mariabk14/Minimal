@@ -34,6 +34,7 @@ color: var(--blue-font);
 
 @media screen and (min-width:750px) {
     font-size: 18px;
+    margin-top: 15px;
 }
 
 }
