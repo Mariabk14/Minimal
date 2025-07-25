@@ -6,11 +6,15 @@
 }
 .about-box{
     padding-top: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
     padding-bottom: 64px;
     background-color: var(--light-blue);
 
     @media screen and (min-width:730px) {
         padding-top: 29px;
+        padding-right: 64px;
+        padding-left: 64px;
         padding-bottom: 43px;
     }
     @media screen and (min-width:1350px) {
