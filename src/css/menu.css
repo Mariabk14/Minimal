@@ -1,5 +1,9 @@
 .catalog{
     padding-top: 64px;
+
+    @media screen and (min-width:750px) {
+        padding-top: 100px;
+    }
 }
 .catalog-title{
     display: none;
