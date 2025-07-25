@@ -102,8 +102,12 @@ color: var(--white);
 .newsletter-img{
     margin-top: 30px;
     padding-bottom: 64px;
-    
+
     @media screen and (min-width:750px) {
         padding: 0;
+    }
+
+    @media screen and (min-width:1350px) {
+        padding-top: 50px;
     }
 }

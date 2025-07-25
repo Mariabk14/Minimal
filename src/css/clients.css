@@ -11,6 +11,10 @@ line-height: 1.50;
 text-transform: uppercase;
 color: var(--blue-font);
 text-align: center;
+
+@media screen and (min-width:1350px) {
+    padding-top: 60px;
+}
 }
 .reviews-list{
     margin-top: 30px;

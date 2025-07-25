@@ -21,6 +21,10 @@
 }
 .pictures-box{
     padding-bottom: 30px;
+
+    @media screen and (min-width:1350px) {
+        padding-bottom: 0;
+    }
 }
 
 .pictures-text{
