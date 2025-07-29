@@ -1,62 +1,54 @@
-.product{
-   padding-top: 64px;
-   
-   @media screen and (min-width:750px) {
+.product {
+  padding-top: 64px;
+
+  @media screen and (min-width: 750px) {
     padding-top: 100px;
-   }
+  }
 }
-.section-name{
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 28px;
-line-height: 1.50;
-text-transform: uppercase;
-color: var(--blue-font);
-text-align: center;
+.section-name {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  text-align: center;
 }
-.menu-product{
-    @media screen and (min-width:750px) {
-        display: flex;
-        justify-content: center;
-        column-gap: 16px;
-    }
-    @media  screen and (min-width:1350px) {
-        column-gap: 24px;
-    }
- 
+.menu-product {
+  @media screen and (min-width: 750px) {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+  }
+  @media screen and (min-width: 1350px) {
+    column-gap: 24px;
+  }
 }
-.menu-product-item:nth-child(2){
-    display: none;
+.menu-product-item:nth-child(2) {
+  display: none;
 
-    @media screen and (min-width:750px) {
-        display: block;
-    }
+  @media screen and (min-width: 750px) {
+    display: block;
+  }
 }
-.menu-product-item:nth-child(3){
-    display: none;
+.menu-product-item:nth-child(3) {
+  display: none;
 
-    @media screen and (min-width:1350px) {
-        display: block;
-    }
-
+  @media screen and (min-width: 1350px) {
+    display: block;
+  }
 }
-.menu-product-item:nth-child(4){
-    display: none;
+.menu-product-item:nth-child(4) {
+  display: none;
 
-    @media screen and (min-width:1350px) {
-        display: block;
-    }
+  @media screen and (min-width: 1350px) {
+    display: block;
+  }
 }
-.menu-product-text{
-    margin-top: 16px;
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.50;
-color: var(--blue-font);
+.menu-product-text {
+  margin-top: 16px;
 
-    @media screen and (min-width:750px) {
-        margin-top: 15px;
-        font-size: 18px;
-    }
+  color: var(--blue-font);
+
+  @media screen and (min-width: 750px) {
+    margin-top: 15px;
+    font-size: 18px;
+  }
 }
